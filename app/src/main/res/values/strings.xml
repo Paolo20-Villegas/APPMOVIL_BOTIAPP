@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">T1</string>
+    <string name="registrar_producto">Registrar Producto</string>
+    <string name="title_activity_registro">activity_registro</string>
+</resources>
