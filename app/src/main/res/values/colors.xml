@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="turquesa">#A8F0CE</color>
+    <color name="verde">#7BFA7B</color>
+    <color name="celeste">#7BFAC4</color>
+    <color name="verdel">#AEFF00</color>
+    <color name="gris">#A4A4A4</color>
+    <color name="btninicial">#E6FCCE</color>
+    <color name="btnaccion">#9CFDBD</color>
+    <color name="verdeosc">#007801</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="separador">#CCCCCC</color>
+</resources>

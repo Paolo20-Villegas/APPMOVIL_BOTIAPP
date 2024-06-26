@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/backg"
+    android:padding="36dp">
+
+    <ImageView
+        android:id="@+id/upn"
+        android:layout_width="100dp"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="83dp"
+
+        android:layout_marginEnd="-18dp"
+        app:srcCompat="@drawable/upn" />
+
+    <ViewStub
+        android:id="@+id/bordedifun_stub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="4dp"
+        app:contentPadding="2dp"
+        android:layout_marginBottom="45dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Usuario"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña"/>
+    <EditText
+        android:id="@+id/etRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Confirmar Contraseña"/>
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btncolor"
+        android:layout_marginTop="16dp"
+        android:text="Registrate"/>
+    <Button
+        android:id="@+id/btn_ingresar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/btncolor"
+        android:layout_marginTop="16dp"
+        android:text="Ir a ingresar"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</RelativeLayout>
